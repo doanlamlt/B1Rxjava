@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Observable.fromArray("Lam","Huy","Trung")
             .subscribe{onNext -> txtView.text}
+        txtView.text="1223"
     }
 }
